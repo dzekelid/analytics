@@ -33,7 +33,7 @@ apis:
   tags: Analytics
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/analytics/master/_listings/akamai/prolexic-analytics-v1-attack-reports-contract-contract-start-start-end-end-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/analytics/master/_listings/akamai/prolexic-analytics-v1-attack-report-contract-contract-attack-id-attackid-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
