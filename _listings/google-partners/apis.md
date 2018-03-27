@@ -11,9 +11,9 @@ tags:
 - Stack Network
 - Partners
 - Google APIs
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/analytics/master/_listings/google-partners/apis.yaml
+created: "2018-03-27"
+modified: "2018-03-27"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/google-partners/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Google Partners API
@@ -25,7 +25,7 @@ apis:
   tags: Analytics
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/analytics/master/_listings/google-partners/v2-analytics-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/google-partners/v2-analytics-get.md
 x-common:
 - type: x-website
   url: https://developers.google.com/partners/
