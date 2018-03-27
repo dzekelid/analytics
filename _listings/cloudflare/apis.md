@@ -17,9 +17,9 @@ tags:
 - DNS New
 - DNS
 - CDN
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/analytics/master/_listings/cloudflare/apis.yaml
+created: "2018-03-27"
+modified: "2018-03-27"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/cloudflare/apis.yaml
 specificationVersion: "0.14"
 apis: []
 x-common:
