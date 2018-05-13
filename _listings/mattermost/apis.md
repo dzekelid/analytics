@@ -37,6 +37,24 @@ x-common:
   url: https://twitter.com/mattermosthq
 - type: x-website
   url: https://mattermost.com
+- type: x-blog
+  url: https://about.mattermost.com/blog/
+- type: x-blog-rss
+  url: https://about.mattermost.com/feed/
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/mattermost
+- type: x-developer
+  url: https://api.mattermost.com/
+- type: x-github
+  url: https://github.com/mattermost
+- type: x-pricing
+  url: https://about.mattermost.com/pricing/
+- type: x-security
+  url: https://docs.mattermost.com/overview/security.html
+- type: x-twitter
+  url: https://twitter.com/mattermosthq
+- type: x-website
+  url: https://mattermost.com
 include: []
 maintainers:
 - FN: Kin Lane
