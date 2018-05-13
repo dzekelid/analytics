@@ -35,9 +35,7 @@ apis:
   tags: Analytics
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/sendgrid/tracking-settings-google-analytics-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/sendgrid/tracking-settings-google-analytics-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/sendgrid/tracking-settings-google-analytics-patch.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
