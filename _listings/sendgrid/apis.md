@@ -36,8 +36,8 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/sendgrid/tracking-settings-google-analytics-patch.md
-- name: SendGrid Get Tracking Settings Google Analytics
-  description: "**This endpoint allows you to retrieve your current setting for Google
+- name: SendGrid Patch Tracking Settings Google Analytics
+  description: "**This endpoint allows you to update your current setting for Google
     Analytics.**\n\nFor more information about using Google Analytics, please refer
     to [Google\u2019s URL Builder](https://support.google.com/analytics/answer/1033867?hl=en)
     and their article on [\"Best Practices for Campaign Building\"](https://support.google.com/analytics/answer/1037445).\n\nWe
@@ -53,9 +53,7 @@ apis:
   tags: Analytics
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/sendgrid/tracking-settings-google-analytics-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/sendgrid/tracking-settings-google-analytics-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/sendgrid/tracking-settings-google-analytics-patch.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
