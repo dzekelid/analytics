@@ -16,7 +16,7 @@ paths:
       description: List Events
       operationId: prolexicanalyticsv1eventscontractcontract
       parameters:
-      - in: String
+      - in: query
         name: contract
         description: Name of contract events should be attached to
         type: string
