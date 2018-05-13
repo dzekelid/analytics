@@ -16,7 +16,7 @@ paths:
       description: List Critical Events
       operationId: prolexicanalyticsv1criticaleventscontractcontract
       parameters:
-      - in: String
+      - in: query
         name: contract
         description: Name of contract events should be attached to
         type: string
