@@ -28,7 +28,22 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/google-partners/v2-analytics-get.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/google-partners/v2-analytics-get-postman.md
+- name: Google Partners API Get Analytics
+  description: |-
+    Lists analytics data for a user's associated company.
+    Should only be called within the context of an authorized logged in user.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google-Partner.jpg
+  humanURL: https://developers.google.com/partners/
+  baseURL: http:://partners.googleapis.com//
+  tags: Analytics
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/google-partners/v2-analytics-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/google-partners/v2-analytics-get-postman.md
 x-common:
+- type: x-website
+  url: https://developers.google.com/partners/
 - type: x-website
   url: https://developers.google.com/partners/
 include: []
