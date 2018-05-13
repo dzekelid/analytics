@@ -18,8 +18,8 @@ tags:
 - Email
 - Email
 - API LIfeycle
-created: "2018-03-27"
-modified: "2018-03-27"
+created: "2018-05-12"
+modified: "2018-05-12"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/sendgrid/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -35,7 +35,9 @@ apis:
   tags: Analytics
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/sendgrid/tracking-settings-google-analytics-patch.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/sendgrid/tracking-settings-google-analytics-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/sendgrid/tracking-settings-google-analytics-get-postman.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
