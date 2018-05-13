@@ -36,7 +36,7 @@ apis:
   tags: Analytics
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/facebook/#123;analytics-app-events-export-id-#125;-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/facebook/#123;user-id-#125;-adnetworkanalytics-get.md
 x-common:
 - type: x-android-sdk
   url: https://developers.facebook.com/docs/android/share
