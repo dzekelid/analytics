@@ -1,9 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: Google Partners
-  description: Searches certified companies and creates contact leads with them, and
-    also audits the usage of clients.
+  title: Google Partners API Get Analytics
+  description: |-
+    Lists analytics data for a user's associated company.
+    Should only be called within the context of an authorized logged in user.
   contact:
     name: Google
     url: https://google.com
