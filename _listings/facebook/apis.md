@@ -37,15 +37,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/facebook/#123;user-id-#125;-adnetworkanalytics-get.md
-- name: Facebook Get Analytics App Events Export
-  description: Analytics App Events Export
+- name: Facebook Get User Adnetworkanalytics
+  description: User Adnetworkanalytics
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0
   tags: Analytics
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/facebook/#123;analytics-app-events-export-id-#125;-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/facebook/#123;user-id-#125;-adnetworkanalytics-get.md
 x-common:
 - type: x-android-sdk
   url: https://developers.facebook.com/docs/android/share
