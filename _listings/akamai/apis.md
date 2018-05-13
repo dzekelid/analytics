@@ -33,7 +33,7 @@ apis:
   tags: Analytics
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/akamai/prolexic-analytics-v1-events-contract-contract-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/akamai/prolexic-analytics-v1-critical-events-contract-contract-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
