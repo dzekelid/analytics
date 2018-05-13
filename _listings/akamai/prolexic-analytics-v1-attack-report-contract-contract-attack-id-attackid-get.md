@@ -16,11 +16,11 @@ paths:
       description: Get an Attack Report
       operationId: prolexicanalyticsv1attackreportcontractcontractattackidattackid
       parameters:
-      - in: Number
+      - in: query
         name: attackId
         description: Integer matching the attackId of the attack desired
         type: string
-      - in: String
+      - in: query
         name: contract
         description: Name of contract attack report belong to
         type: string
