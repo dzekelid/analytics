@@ -16,15 +16,15 @@ paths:
       description: List Attack Reports
       operationId: prolexicanalyticsv1attackreportscontractcontractstartstartendend
       parameters:
-      - in: String
+      - in: query
         name: contract
         description: Name of contract attack reports belong to
         type: string
-      - in: Number
+      - in: query
         name: end
         description: Unix timestamp for end of attack report search
         type: string
-      - in: Number
+      - in: query
         name: start
         description: Unix timestamp for beginning of attack report search
         type: string
