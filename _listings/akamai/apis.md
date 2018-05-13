@@ -34,15 +34,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/akamai/prolexic-analytics-v1-attack-report-contract-contract-attack-id-attackid-get.md
-- name: Akamai API List Attack Reports
-  description: List Attack Reports
+- name: Akamai API Get an Attack Report
+  description: Get an Attack Report
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Akamai_Technologies,_Inc._Logo.png
   humanURL: https://akamai.com
   baseURL: https://developer.akamai.com//
   tags: Analytics
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/akamai/prolexic-analytics-v1-attack-reports-contract-contract-start-start-end-end-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/akamai/prolexic-analytics-v1-attack-report-contract-contract-attack-id-attackid-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
