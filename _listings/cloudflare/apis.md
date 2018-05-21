@@ -1,52 +1,61 @@
 ---
 name: CloudFlare
-description: 'CloudFlare, Inc. is a U.S. company that provides a content delivery
-  network and distributed domain name server services, sitting between the visitor
-  and the CloudFlare users hosting provider, acting as a reverse proxy for websites.
-  Its network protects, speeds up, and improves availability for a website or mobile
-  application with a change in DNS. '
+x-slug: cloudflare
+description: CloudFlare, Inc. is a U.S. company that provides a content delivery network
+  and distributed domain name server services, sitting between the visitor and the
+  CloudFlare users hosting provider, acting as a reverse proxy for websites. Its network
+  protects, speeds up, and improves availability for a website or mobile application
+  with a change in DNS.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/cloudflare-logo.png
 x-kinRank: "9"
 x-alexaRank: ""
-tags:
-- Stack Network
-- Security
-- Partners
-- My API Stack
-- Encryption
-- DNS New
-- DNS
-- CDN
-created: "2018-05-12"
-modified: "2018-05-12"
-url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/cloudflare/apis.yaml
+tags: Analytics
+created: "2018-05-20"
+modified: "2018-05-20"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/cloudflare/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: CloudFlare This view provides a breakdown of analytics data by datacenter
+  x-api-slug: cloudflare
+  description: This view provides a breakdown of analytics data by datacenter
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/cloudflare-logo.png
+  humanURL: https://www.cloudflare.com
+  baseURL: https://///zones/:zone_identifier/analytics/colos
+  tags: Zones, Analytics
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/cloudflare/zoneszone-identifieranalyticscolos-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/cloudflare/zoneszone-identifieranalyticscolos-get-openapi.md
+- name: CloudFlare The dashboard view provides both totals and timeseries data for
+    the given zone and time period across the entire CloudFlare network
+  x-api-slug: cloudflare
+  description: The dashboard view provides both totals and timeseries data for the
+    given zone and time period across the entire CloudFlare network
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/cloudflare-logo.png
+  humanURL: https://www.cloudflare.com
+  baseURL: https://///zones/:zone_identifier/analytics/dashboard
+  tags: Zones, Analytics
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/cloudflare/zoneszone-identifieranalyticsdashboard-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/cloudflare/zoneszone-identifieranalyticsdashboard-get-openapi.md
+- name: CloudFlare
+  x-api-slug: cloudflare
+  description: CloudFlare, Inc. is a U.S. company that provides a content delivery
+    network and distributed domain name server services, sitting between the visitor
+    and the CloudFlare users hosting provider, acting as a reverse proxy for websites.
+    Its network protects, speeds up, and improves availability for a website or mobile
+    application with a change in DNS.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/cloudflare-logo.png
+  humanURL: https://www.cloudflare.com
+  baseURL: https:///
+  tags: Analytics
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/cloudflare/openapi.md
 x-common:
-- type: x-blog
-  url: https://blog.cloudflare.com/
-- type: x-blog-rss
-  url: http://blog.cloudflare.com/rss/
-- type: x-developer
-  url: https://www.cloudflare.com/docs/client-api.html
-- type: x-github
-  url: https://github.com/cloudflare
-- type: x-partners
-  url: https://www.cloudflare.com/partners/
-- type: x-pricing
-  url: https://www.cloudflare.com/plans/
-- type: x-privacy
-  url: https://www.cloudflare.com/security-policy
-- type: x-security
-  url: https://www.cloudflare.com/security-policy/
-- type: x-terms-of-service
-  url: https://www.cloudflare.com/terms/
-- type: x-transparency-report
-  url: https://www.cloudflare.com/transparency/
-- type: x-twitter
-  url: https://twitter.com/CloudFlare
-- type: x-website
-  url: https://www.cloudflare.com
 - type: x-blog
   url: https://blog.cloudflare.com/
 - type: x-blog-rss
