@@ -1,24 +1,21 @@
 ---
 name: CloudFlare
 x-slug: cloudflare
-description: CloudFlare, Inc. is a U.S. company that provides a content delivery network
-  and distributed domain name server services, sitting between the visitor and the
-  CloudFlare users hosting provider, acting as a reverse proxy for websites. Its network
-  protects, speeds up, and improves availability for a website or mobile application
-  with a change in DNS.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/cloudflare-logo.png
+description: Here at Cloudflare, we make the Internet work the way it should. Offering
+  CDN, DNS, DDoS protection and security, find out how we can help your site.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18929-cloudflare.jpg
 x-kinRank: "9"
-x-alexaRank: ""
+x-alexaRank: "1685"
 tags: Analytics
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-17"
+modified: "2018-06-17"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/cloudflare/apis.md
 specificationVersion: "0.14"
 apis:
 - name: CloudFlare This view provides a breakdown of analytics data by datacenter
   x-api-slug: cloudflare
   description: This view provides a breakdown of analytics data by datacenter
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/cloudflare-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18929-cloudflare.jpg
   humanURL: https://www.cloudflare.com
   baseURL: https://///zones/:zone_identifier/analytics/colos
   tags: Zones, Analytics
@@ -32,7 +29,7 @@ apis:
   x-api-slug: cloudflare
   description: The dashboard view provides both totals and timeseries data for the
     given zone and time period across the entire CloudFlare network
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/cloudflare-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18929-cloudflare.jpg
   humanURL: https://www.cloudflare.com
   baseURL: https://///zones/:zone_identifier/analytics/dashboard
   tags: Zones, Analytics
@@ -43,12 +40,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/cloudflare/zoneszone-identifieranalyticsdashboard-get-openapi.md
 - name: CloudFlare
   x-api-slug: cloudflare
-  description: CloudFlare, Inc. is a U.S. company that provides a content delivery
-    network and distributed domain name server services, sitting between the visitor
-    and the CloudFlare users hosting provider, acting as a reverse proxy for websites.
-    Its network protects, speeds up, and improves availability for a website or mobile
-    application with a change in DNS.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/cloudflare-logo.png
+  description: Here at Cloudflare, we make the Internet work the way it should. Offering
+    CDN, DNS, DDoS protection and security, find out how we can help your site.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18929-cloudflare.jpg
   humanURL: https://www.cloudflare.com
   baseURL: https:///
   tags: Analytics
@@ -60,6 +54,8 @@ x-common:
   url: https://blog.cloudflare.com/
 - type: x-blog-rss
   url: http://blog.cloudflare.com/rss/
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/cloudflare
 - type: x-developer
   url: https://www.cloudflare.com/docs/client-api.html
 - type: x-github
@@ -80,6 +76,8 @@ x-common:
   url: https://twitter.com/CloudFlare
 - type: x-website
   url: https://www.cloudflare.com
+- type: x-website
+  url: http://cloudflare.com
 include: []
 maintainers:
 - FN: Kin Lane
