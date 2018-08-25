@@ -12,9 +12,9 @@ modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/cloudflare/apis.md
 specificationVersion: "0.14"
 apis:
-- name: CloudFlare
-  x-api-slug: cloudflare
-  description: ""
+- name: CloudFlare - This view provides a breakdown of analytics data by datacenter
+  x-api-slug: zoneszone-identifieranalyticscolos-get
+  description: This view provides a breakdown of analytics data by datacenter
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18929-cloudflare.jpg
   humanURL: https://www.cloudflare.com
   baseURL: https:///
@@ -26,9 +26,11 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/cloudflare/zoneszone-identifieranalyticscolos-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/cloudflare/zoneszone-identifieranalyticscolos-get-openapi.md
-- name: CloudFlare
-  x-api-slug: cloudflare
-  description: ""
+- name: CloudFlare - The dashboard view provides both totals and timeseries data for
+    the given zone and time period across the entire CloudFlare network
+  x-api-slug: zoneszone-identifieranalyticsdashboard-get
+  description: The dashboard view provides both totals and timeseries data for the
+    given zone and time period across the entire CloudFlare network
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18929-cloudflare.jpg
   humanURL: https://www.cloudflare.com
   baseURL: https:///
@@ -36,25 +38,10 @@ apis:
     SaaS, Technology, Enterprise, API Provider, API Service Provider, Profiles, Service
     API, Relative Data, Networks
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/cloudflare/zoneszone-identifieranalyticscolos-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/cloudflare/zoneszone-identifieranalyticscolos-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/cloudflare/zoneszone-identifieranalyticsdashboard-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/cloudflare/zoneszone-identifieranalyticsdashboard-get-openapi.md
-- name: CloudFlare
-  x-api-slug: cloudflare
-  description: Here at Cloudflare, we make the Internet work the way it should. Offering
-    CDN, DNS, DDoS protection and security, find out how we can help your site.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18929-cloudflare.jpg
-  humanURL: https://www.cloudflare.com
-  baseURL: https:///
-  tags: Analytics
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/cloudflare/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://cloud.elements.api.gallery.streamdata.io

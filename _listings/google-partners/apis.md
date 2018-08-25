@@ -14,9 +14,11 @@ modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/google-partners/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Google Partners API
-  x-api-slug: google-partners-api
-  description: searches-certified-companies-and-creates-contact-leads-with-them-and-also-audits-the-usage-of-clients-
+- name: Google Partners - Get Analytics
+  x-api-slug: v2analytics-get
+  description: |-
+    Lists analytics data for a user's associated company.
+    Should only be called within the context of an authorized logged in user.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google-Partner.jpg
   humanURL: https://developers.google.com/partners/
   baseURL: ://partners.googleapis.com//
@@ -27,19 +29,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/google-partners/v2analytics-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/google-partners/v2analytics-get-openapi.md
-- name: Google Partners API
-  x-api-slug: google-partners-api
-  description: Google Partners is Googles program for advertising agencies, digital
-    marketing professionals, and other online consultants who manage AdWords accounts.
-    The Google Partners API lets advertisers search certified companies and create
-    contact leads with them, and also audits the usage of clients.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google-Partner.jpg
-  humanURL: https://developers.google.com/partners/
-  baseURL: ://partners.googleapis.com//
-  tags: Analytics
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/google-partners/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://google.pagespeed.insights.api.gallery.streamdata.io

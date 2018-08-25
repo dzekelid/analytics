@@ -11,41 +11,7 @@ created: "2018-08-25"
 modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/gig--crowd/apis.md
 specificationVersion: "0.14"
-apis:
-- name: GIGANDCROWD
-  x-api-slug: gigandcrowd
-  description: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gigandcrowd.png
-  humanURL: https://gigandcrowd.com
-  baseURL: https://gigandcrowd.com//
-  tags: Events, Concerts, Entertainment, Relative Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/gig--crowd/apiv1gigmeanalytics-post-openapi.md
-- name: GIGANDCROWD
-  x-api-slug: gigandcrowd
-  description: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gigandcrowd.png
-  humanURL: https://gigandcrowd.com
-  baseURL: https://gigandcrowd.com//
-  tags: Events, Concerts, Entertainment, Relative Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/gig--crowd/apiv1gigmeanalytics-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/gig--crowd/apiv1gigmeanalytics-post-openapi.md
-- name: GIGANDCROWD
-  x-api-slug: gigandcrowd
-  description: 'A unique system of the order and booking of artists: negotiations,
-    coordination of conditions, convenient reminders of fee payment terms and rider
-    preparation.'
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gigandcrowd.png
-  humanURL: https://gigandcrowd.com
-  baseURL: https://gigandcrowd.com//
-  tags: Analytics
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/gig--crowd/openapi.md
+apis: []
 x-common:
 - type: x-openapi
   url: https://gigandcrowd.com/swagger/docs/v1
