@@ -9,20 +9,19 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Analytics
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/google-partners/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Google Partners API Get Analytics
+- name: Google Partners API
   x-api-slug: google-partners-api
-  description: |-
-    Lists analytics data for a user's associated company.
-    Should only be called within the context of an authorized logged in user.
+  description: searches-certified-companies-and-creates-contact-leads-with-them-and-also-audits-the-usage-of-clients-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google-Partner.jpg
   humanURL: https://developers.google.com/partners/
-  baseURL: ://partners.googleapis.com////v2/analytics
-  tags: Analytics
+  baseURL: ://partners.googleapis.com//
+  tags: Google APIs, Stack Network, API Service Provider, API Provider, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/google-partners/v2analytics-get-postman.md
@@ -42,6 +41,10 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/google-partners/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://google.pagespeed.insights.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://google.partners.stack.network
 - type: x-website
   url: https://developers.google.com/partners/
 include: []

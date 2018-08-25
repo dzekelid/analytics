@@ -7,79 +7,189 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instru
 x-kinRank: "8"
 x-alexaRank: "367"
 tags: Analytics
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/instructure/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Instructure Canvas Courses API Get course-level participation data
-  x-api-slug: instructure-canvas-courses-api
-  description: Get course-level participation data.
+- name: Instructure Canvas Appointment Groups API
+  x-api-slug: instructure-canvas-appointment-groups-api
+  description: Instructure makes software that makes smarter people. Products include
+    Canvas LMS, Bridge and Canvas Network.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
   humanURL: http://instructure.com
-  baseURL: https://canvas.instructure.com//api/v1//courses/{course_id}/analytics/activity
-  tags: Courses,Course,Id,Analytics,Activity
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Analytics
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/instructure/openapi.md
+- name: Instructure Canvas Audit API
+  x-api-slug: instructure-canvas-audit-api
+  description: Instructure makes software that makes smarter people. Products include
+    Canvas LMS, Bridge and Canvas Network.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Analytics
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/instructure/openapi.md
+- name: Instructure Canvas Calendar Events API
+  x-api-slug: instructure-canvas-calendar-events-api
+  description: Instructure makes software that makes smarter people. Products include
+    Canvas LMS, Bridge and Canvas Network.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Analytics
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/instructure/openapi.md
+- name: Instructure Canvas Conversations API
+  x-api-slug: instructure-canvas-conversations-api
+  description: Instructure makes software that makes smarter people. Products include
+    Canvas LMS, Bridge and Canvas Network.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Analytics
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/instructure/openapi.md
+- name: Instructure Canvas Courses API
+  x-api-slug: instructure-canvas-courses-api
+  description: canvas-lms-includes-a-rest-api-for-accessing-and-modifying-data-externally-from-the-main-application-in-your-own-programs-and-scripts--
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/instructure/coursescourse-idanalyticsactivity-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/instructure/coursescourse-idanalyticsactivity-get-openapi.md
-- name: Instructure Canvas Courses API Get course-level assignment data
+- name: Instructure Canvas Courses API
   x-api-slug: instructure-canvas-courses-api
-  description: Get course-level assignment data.
+  description: canvas-lms-includes-a-rest-api-for-accessing-and-modifying-data-externally-from-the-main-application-in-your-own-programs-and-scripts--
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
   humanURL: http://instructure.com
-  baseURL: https://canvas.instructure.com//api/v1//courses/{course_id}/analytics/assignments
-  tags: Courses,Course,Id,Analytics,Assignments
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/instructure/coursescourse-idanalyticsactivity-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/instructure/coursescourse-idanalyticsactivity-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/instructure/coursescourse-idanalyticsassignments-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/instructure/coursescourse-idanalyticsassignments-get-openapi.md
-- name: Instructure Canvas Courses API Get course-level student summary data
+- name: Instructure Canvas Courses API
   x-api-slug: instructure-canvas-courses-api
-  description: Get course-level student summary data.
+  description: canvas-lms-includes-a-rest-api-for-accessing-and-modifying-data-externally-from-the-main-application-in-your-own-programs-and-scripts--
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
   humanURL: http://instructure.com
-  baseURL: https://canvas.instructure.com//api/v1//courses/{course_id}/analytics/student_summaries
-  tags: Courses,Course,Id,Analytics,Student,Summaries
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/instructure/coursescourse-idanalyticsactivity-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/instructure/coursescourse-idanalyticsactivity-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/instructure/coursescourse-idanalyticsassignments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/instructure/coursescourse-idanalyticsassignments-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/instructure/coursescourse-idanalyticsstudent-summaries-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/instructure/coursescourse-idanalyticsstudent-summaries-get-openapi.md
-- name: Instructure Canvas Courses API Get user-in-a-course-level participation data
+- name: Instructure Canvas Courses API
   x-api-slug: instructure-canvas-courses-api
-  description: Get user-in-a-course-level participation data.
+  description: canvas-lms-includes-a-rest-api-for-accessing-and-modifying-data-externally-from-the-main-application-in-your-own-programs-and-scripts--
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
   humanURL: http://instructure.com
-  baseURL: https://canvas.instructure.com//api/v1//courses/{course_id}/analytics/users/student_id/activity
-  tags: Courses,Course,Id,Analytics,Users,Student,Id,Activity
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/instructure/coursescourse-idanalyticsactivity-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/instructure/coursescourse-idanalyticsactivity-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/instructure/coursescourse-idanalyticsassignments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/instructure/coursescourse-idanalyticsassignments-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/instructure/coursescourse-idanalyticsstudent-summaries-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/instructure/coursescourse-idanalyticsstudent-summaries-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/instructure/coursescourse-idanalyticsusersstudent-idactivity-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/instructure/coursescourse-idanalyticsusersstudent-idactivity-get-openapi.md
-- name: Instructure Canvas Courses API Get user-in-a-course-level assignment data
+- name: Instructure Canvas Courses API
   x-api-slug: instructure-canvas-courses-api
-  description: Get user-in-a-course-level assignment data.
+  description: canvas-lms-includes-a-rest-api-for-accessing-and-modifying-data-externally-from-the-main-application-in-your-own-programs-and-scripts--
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
   humanURL: http://instructure.com
-  baseURL: https://canvas.instructure.com//api/v1//courses/{course_id}/analytics/users/student_id/assignments
-  tags: Courses,Course,Id,Analytics,Users,Student,Id,Assignments
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/instructure/coursescourse-idanalyticsactivity-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/instructure/coursescourse-idanalyticsactivity-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/instructure/coursescourse-idanalyticsassignments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/instructure/coursescourse-idanalyticsassignments-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/instructure/coursescourse-idanalyticsstudent-summaries-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/instructure/coursescourse-idanalyticsstudent-summaries-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/instructure/coursescourse-idanalyticsusersstudent-idactivity-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/instructure/coursescourse-idanalyticsusersstudent-idactivity-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/instructure/coursescourse-idanalyticsusersstudent-idassignments-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/instructure/coursescourse-idanalyticsusersstudent-idassignments-get-openapi.md
-- name: Instructure Canvas Courses API Get user-in-a-course-level messaging data
+- name: Instructure Canvas Courses API
   x-api-slug: instructure-canvas-courses-api
-  description: Get user-in-a-course-level messaging data.
+  description: canvas-lms-includes-a-rest-api-for-accessing-and-modifying-data-externally-from-the-main-application-in-your-own-programs-and-scripts--
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
   humanURL: http://instructure.com
-  baseURL: https://canvas.instructure.com//api/v1//courses/{course_id}/analytics/users/student_id/communication
-  tags: Courses,Course,Id,Analytics,Users,Student,Id,Communication
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/instructure/coursescourse-idanalyticsactivity-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/instructure/coursescourse-idanalyticsactivity-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/instructure/coursescourse-idanalyticsassignments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/instructure/coursescourse-idanalyticsassignments-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/instructure/coursescourse-idanalyticsstudent-summaries-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/instructure/coursescourse-idanalyticsstudent-summaries-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/instructure/coursescourse-idanalyticsusersstudent-idactivity-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/instructure/coursescourse-idanalyticsusersstudent-idactivity-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/instructure/coursescourse-idanalyticsusersstudent-idassignments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/instructure/coursescourse-idanalyticsusersstudent-idassignments-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/instructure/coursescourse-idanalyticsusersstudent-idcommunication-get-postman.md
   - type: x-openapi-spec
@@ -95,7 +205,88 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/instructure/openapi.md
+- name: Instructure Canvas Global API
+  x-api-slug: instructure-canvas-global-api
+  description: Instructure makes software that makes smarter people. Products include
+    Canvas LMS, Bridge and Canvas Network.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Analytics
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/instructure/openapi.md
+- name: Instructure Canvas Groups API
+  x-api-slug: instructure-canvas-groups-api
+  description: Instructure makes software that makes smarter people. Products include
+    Canvas LMS, Bridge and Canvas Network.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Analytics
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/instructure/openapi.md
+- name: Instructure Canvas Polls API
+  x-api-slug: instructure-canvas-polls-api
+  description: Instructure makes software that makes smarter people. Products include
+    Canvas LMS, Bridge and Canvas Network.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Analytics
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/instructure/openapi.md
+- name: Instructure Canvas Quiz Submissions API
+  x-api-slug: instructure-canvas-quiz-submissions-api
+  description: Instructure makes software that makes smarter people. Products include
+    Canvas LMS, Bridge and Canvas Network.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Analytics
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/instructure/openapi.md
+- name: Instructure Canvas Sections API
+  x-api-slug: instructure-canvas-sections-api
+  description: Instructure makes software that makes smarter people. Products include
+    Canvas LMS, Bridge and Canvas Network.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Analytics
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/instructure/openapi.md
+- name: Instructure Canvas Users API
+  x-api-slug: instructure-canvas-users-api
+  description: Instructure makes software that makes smarter people. Products include
+    Canvas LMS, Bridge and Canvas Network.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Analytics
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/instructure/openapi.md
+- name: Instructure Canvas Utility APIs
+  x-api-slug: instructure-canvas-utility-apis
+  description: Instructure makes software that makes smarter people. Products include
+    Canvas LMS, Bridge and Canvas Network.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Analytics
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/instructure/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://instagram.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://instructure.stack.network
 - type: x-blog
   url: http://blog.instructure.com
 - type: x-blog-rss

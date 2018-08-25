@@ -9,44 +9,81 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28561-boti
 x-kinRank: "7"
 x-alexaRank: "274018"
 tags: Analytics
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/botify/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Botify Get Analyses Username Project Slug Analysis Slug Features Ganalytics
-    Orphan Urls Medium Source
+- name: Botify
   x-api-slug: botify
-  description: 'Legacy    List of Orphan URLs. URLs which generated visits from the
-    selected source according to Google Analytics data, but were not crawled with
-    by the Botify crawler (either because no links to them were found on the website,
-    or because the crawler was not allowed to follow these links according to the
-    project settings).   For a search engine (medium: origanic; sources: all, aol,
-    ask, baidu, bing, google, naver, yahoo, yandex) or a social network (medium: social;
-    sources: all, facebook, google+, linkedin, pinterest, reddit, tumblr, twitter)'
+  description: botify-saas-api
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28561-botify.jpg
   humanURL: http://www.botify.com
-  baseURL: https://api.botify.com//v1//analyses/{username}/{project_slug}/{analysis_slug}/features/ganalytics/orphan_urls/{medium}/{source}
-  tags: Analyses,Username,Project,Slug,Analysis,Slug,Features,Ganalytics,Orphan,Urls,Medium,Source
+  baseURL: https://api.botify.com//v1
+  tags: SaaS, Technology, Enterprise, internet, Bots, Search, API Provider, API Service
+    Provider, Profiles, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/botify/analysesusernameproject-sluganalysis-slugfeaturesganalyticsorphan-urlsmediumsource-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/botify/analysesusernameproject-sluganalysis-slugfeaturesganalyticsorphan-urlsmediumsource-get-openapi.md
-- name: Botify Parameters Analyses Username Project Slug Analysis Slug Features Ganalytics
-    Orphan Urls Medium Source
+- name: Botify
   x-api-slug: botify
-  description: Parameters analyses username project slug analysis slug features ganalytics
-    orphan urls medium source.
+  description: botify-saas-api
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28561-botify.jpg
   humanURL: http://www.botify.com
-  baseURL: https://api.botify.com//v1//analyses/{username}/{project_slug}/{analysis_slug}/features/ganalytics/orphan_urls/{medium}/{source}
-  tags: Analyses,Username,Project,Slug,Analysis,Slug,Features,Ganalytics,Orphan,Urls,Medium,Source
+  baseURL: https://api.botify.com//v1
+  tags: SaaS, Technology, Enterprise, internet, Bots, Search, API Provider, API Service
+    Provider, Profiles, Service API, Relative Data
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/botify/analysesusernameproject-sluganalysis-slugfeaturesganalyticsorphan-urlsmediumsource-parameters-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/botify/analysesusernameproject-sluganalysis-slugfeaturesganalyticsorphan-urlsmediumsource-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/botify/analysesusernameproject-sluganalysis-slugfeaturesganalyticsorphan-urlsmediumsource-parameters-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/botify/analysesusernameproject-sluganalysis-slugfeaturesganalyticsorphan-urlsmediumsource-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/botify/analysesusernameproject-sluganalysis-slugfeaturesvisitsorphan-urlsmediumsource-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/botify/analysesusernameproject-sluganalysis-slugfeaturesvisitsorphan-urlsmediumsource-get-openapi.md
+- name: Botify
+  x-api-slug: botify
+  description: botify-saas-api
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28561-botify.jpg
+  humanURL: http://www.botify.com
+  baseURL: https://api.botify.com//v1
+  tags: SaaS, Technology, Enterprise, internet, Bots, Search, API Provider, API Service
+    Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/botify/analysesusernameproject-sluganalysis-slugfeaturesganalyticsorphan-urlsmediumsource-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/botify/analysesusernameproject-sluganalysis-slugfeaturesganalyticsorphan-urlsmediumsource-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/botify/analysesusernameproject-sluganalysis-slugfeaturesvisitsorphan-urlsmediumsource-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/botify/analysesusernameproject-sluganalysis-slugfeaturesvisitsorphan-urlsmediumsource-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/botify/analysesusernameproject-sluganalysis-slugfeaturesganalyticsorphan-urlsmediumsource-get-openapi.md
+- name: Botify
+  x-api-slug: botify
+  description: botify-saas-api
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28561-botify.jpg
+  humanURL: http://www.botify.com
+  baseURL: https://api.botify.com//v1
+  tags: SaaS, Technology, Enterprise, internet, Bots, Search, API Provider, API Service
+    Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/botify/analysesusernameproject-sluganalysis-slugfeaturesganalyticsorphan-urlsmediumsource-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/botify/analysesusernameproject-sluganalysis-slugfeaturesganalyticsorphan-urlsmediumsource-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/botify/analysesusernameproject-sluganalysis-slugfeaturesvisitsorphan-urlsmediumsource-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/botify/analysesusernameproject-sluganalysis-slugfeaturesvisitsorphan-urlsmediumsource-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/botify/analysesusernameproject-sluganalysis-slugfeaturesganalyticsorphan-urlsmediumsource-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/botify/analysesusernameproject-sluganalysis-slugfeaturesvisitsorphan-urlsmediumsource-get-openapi.md
 - name: Botify
   x-api-slug: botify
   description: We are passionate about SEO. Botify offers unparalleled insights into
@@ -63,6 +100,10 @@ apis:
 x-common:
 - type: x-website
   url: http://www.botify.com
+- type: x-api-gallery
+  url: http://bookeo.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://botify.stack.network
 - type: x-crunchbase
   url: https://crunchbase.com/organization/botify
 - type: x-developer

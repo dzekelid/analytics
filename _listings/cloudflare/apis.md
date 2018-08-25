@@ -7,33 +7,39 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18929-clou
 x-kinRank: "9"
 x-alexaRank: "1685"
 tags: Analytics
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/cloudflare/apis.md
 specificationVersion: "0.14"
 apis:
-- name: CloudFlare This view provides a breakdown of analytics data by datacenter
+- name: CloudFlare
   x-api-slug: cloudflare
-  description: This view provides a breakdown of analytics data by datacenter
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18929-cloudflare.jpg
   humanURL: https://www.cloudflare.com
-  baseURL: https://///zones/:zone_identifier/analytics/colos
-  tags: Zones, Analytics
+  baseURL: https:///
+  tags: DNS, My API Stack, Encryption, Security, CDN, DNS New, Stack Network, internet,
+    SaaS, Technology, Enterprise, API Provider, API Service Provider, Profiles, Service
+    API, Relative Data, Networks
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/cloudflare/zoneszone-identifieranalyticscolos-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/cloudflare/zoneszone-identifieranalyticscolos-get-openapi.md
-- name: CloudFlare The dashboard view provides both totals and timeseries data for
-    the given zone and time period across the entire CloudFlare network
+- name: CloudFlare
   x-api-slug: cloudflare
-  description: The dashboard view provides both totals and timeseries data for the
-    given zone and time period across the entire CloudFlare network
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18929-cloudflare.jpg
   humanURL: https://www.cloudflare.com
-  baseURL: https://///zones/:zone_identifier/analytics/dashboard
-  tags: Zones, Analytics
+  baseURL: https:///
+  tags: DNS, My API Stack, Encryption, Security, CDN, DNS New, Stack Network, internet,
+    SaaS, Technology, Enterprise, API Provider, API Service Provider, Profiles, Service
+    API, Relative Data, Networks
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/cloudflare/zoneszone-identifieranalyticscolos-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/cloudflare/zoneszone-identifieranalyticscolos-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/cloudflare/zoneszone-identifieranalyticsdashboard-get-postman.md
   - type: x-openapi-spec
@@ -50,6 +56,10 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/cloudflare/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://cloud.elements.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://cloudflare.stack.network
 - type: x-blog
   url: https://blog.cloudflare.com/
 - type: x-blog-rss

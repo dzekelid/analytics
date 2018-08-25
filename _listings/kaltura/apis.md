@@ -14,19 +14,19 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28437-kalt
 x-kinRank: "7"
 x-alexaRank: "23496"
 tags: Analytics
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/kaltura/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Kaltura VPaaS Get Service Analytics Action Query
+- name: Kaltura VPaaS
   x-api-slug: kaltura-vpaas
-  description: report query action allows to get a analytics data for specific query
-    dimensions, metrics and filters.
+  description: building-video-experiences-consists-of-ingesting-media-files-playing-back-videos-and-reviewing-usage-and-engagement-analytics--in-between-there-is-a-world-of-nuances-required-for-your-unique-usecase-and-application--kaltura-vpaas-is-built-on-the-principles-of-atomic-services-sdks-and-tools-that-allow-you-full-control-and-flexibility-over-every-element-and-process-in-your-medias-life-cycle-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28437-kaltura-vpaa-s.jpg
   humanURL: http://kaltura.com
-  baseURL: https://www.kaltura.com//api_v3//service/analytics/action/query
-  tags: Service,Analytics,Action,Query
+  baseURL: https://www.kaltura.com//api_v3
+  tags: SaaS, Technology, Enterprise, API Provider, Videos, Profiles, Relative Data,
+    Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/kaltura/serviceanalyticsactionquery-get-postman.md
@@ -51,6 +51,10 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/kaltura/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://jumpseller.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://kaltura.stack.network
 - type: x-blog
   url: https://blog.kaltura.com/
 - type: x-code

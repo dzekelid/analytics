@@ -59,6 +59,43 @@ paths:
       - Urls
       - Medium
       - Source
+  /analyses/{username}/{project_slug}/{analysis_slug}/features/visits/orphan_urls/{medium}/{source}:
+    get:
+      summary: Get Analyses Username Project Slug Analysis Slug Features Visits Orphan
+        Urls Medium Source
+      description: 'List of Orphan URLs. URLs which generated visits from the selected
+        source according to Google Analytics data, but were not crawled with by the
+        Botify crawler (either because no links to them were found on the website,
+        or because the crawler was not allowed to follow these links according to
+        the project settings).   For a search engine (medium: origanic; sources: all,
+        aol, ask, baidu, bing, google, naver, yahoo, yandex) or a social network (medium:
+        social; sources: all, facebook, google+, linkedin, pinterest, reddit, tumblr,
+        twitter)'
+      operationId: getAnalysesUsernameProjectSlugAnalysisSlugFeaturesVisitsOrphanUrlsMediumSource
+      x-api-path-slug: analysesusernameproject-sluganalysis-slugfeaturesvisitsorphan-urlsmediumsource-get
+      parameters:
+      - in: query
+        name: page
+        description: Page Number
+      - in: query
+        name: size
+        description: Page Size
+      responses:
+        200:
+          description: OK
+      tags:
+      - Analyses
+      - Username
+      - Project
+      - Slug
+      - Analysis
+      - Slug
+      - Features
+      - Visits
+      - Orphan
+      - Urls
+      - Medium
+      - Source
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

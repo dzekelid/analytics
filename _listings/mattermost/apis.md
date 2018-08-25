@@ -8,26 +8,19 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "95684"
 tags: Analytics
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/mattermost/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Mattermost API Get analytics
+- name: Mattermost API
   x-api-slug: mattermost-api
-  description: |-
-    Get some analytics data about the system. This endpoint uses the old format, the `/analytics` route is reserved for the new format when it gets implemented.
-
-    The returned JSON changes based on the `name` query parameter but is always key/value pairs.
-
-    __Minimum server version__: 4.0
-
-    ##### Permissions
-    Must have `manage_system` permission.
+  description: -api-v4-is-stable-with-the-mattermost-server-4-0-release--api-v3-was-deprecated-on-january-16th-2018-and-scheduled-for-removal-in-mattermost-v5-0--details-heretagapiv3deprecation--looking-for-the-api-v3-reference-it-has-moved-herehttpsapi-mattermost-comv3-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mattermost-logo.png
   humanURL: https://mattermost.com
-  baseURL: https://your-mattermost-url.com//api/v4//analytics/old
-  tags: Analytics
+  baseURL: https://your-mattermost-url.com//api/v4
+  tags: Enterprise, SaaS, Technology, Cloud, API Provider, API Service Provider, Profiles,
+    Relative Data, Service API, Networks
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/mattermost/analyticsold-get-postman.md
@@ -45,7 +38,23 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/mattermost/openapi.md
+- name: Mattermost Websocket API
+  x-api-slug: mattermost-websocket-api
+  description: Open source, private cloud Slack-alternative, Workplace messaging for
+    web, PCs and phones. MIT-licensed. Hundreds of contributors. 14 languages. Secure,
+    configurable, and scalable from teams to the enterprise.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mattermost-logo.png
+  humanURL: https://mattermost.com
+  baseURL: https:///
+  tags: Analytics
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/mattermost/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://matrix.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://mattermost.stack.network
 - type: x-blog
   url: https://about.mattermost.com/blog/
 - type: x-blog-rss
