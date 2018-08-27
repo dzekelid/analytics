@@ -8,11 +8,37 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Analytics
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/google-analytics/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Google Analytics - Return Analytics Data
+  x-api-slug: dataga-get
+  description: Returns Analytics data for a view (profile).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/logo_lockup_analytics_icon_vertical_black_2x.png
+  humanURL: https://www.google.com/analytics/#?modal_active=none
+  baseURL: https://www.googleapis.com//analytics/v3
+  tags: Analysis, Google APIs, Stack Network, Stack, Analytics, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/google-analytics/dataga-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/google-analytics/dataga-get-openapi.md
+- name: Google Analytics - Returns Analytics Multi-Channel Funnels Data
+  x-api-slug: datamcf-get
+  description: Returns Analytics Multi-Channel Funnels data for a view (profile).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/logo_lockup_analytics_icon_vertical_black_2x.png
+  humanURL: https://www.google.com/analytics/#?modal_active=none
+  baseURL: https://www.googleapis.com//analytics/v3
+  tags: Analysis, Google APIs, Stack Network, Stack, Analytics, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/google-analytics/datamcf-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/google-analytics/datamcf-get-openapi.md
 - name: Google Analytics - Return Analytics Data
   x-api-slug: dataga-get
   description: Returns Analytics data for a view (profile).

@@ -14,8 +14,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Analytics
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/aws-s3/apis.md
 specificationVersion: "0.14"
 apis:
@@ -89,6 +89,34 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/aws-s3/analytics-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/aws-s3/analytics-get-openapi.md
+- name: No Title - DELETE Bucket analyticsnttconfiguration
+  x-api-slug: analyticsampidanalyticsconfigurationid-delete
+  description: This implementation of the DELETE operation deletes an analytics configuration(identified
+    by the analytics configuration ID) from the bucket
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AmazonS3.png
+  humanURL: https://aws.amazon.com/s3/
+  baseURL: https:////
+  tags: Amazon Web Services, Storage, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/aws-s3/analyticsampidanalyticsconfigurationid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/aws-s3/analyticsampidanalyticsconfigurationid-delete-openapi.md
+- name: No Title - DELETE Bucket analyticsnttconfiguration
+  x-api-slug: analyticsampidanalyticsconfigurationid-delete
+  description: This implementation of the DELETE operation deletes an analytics configuration(identified
+    by the analytics configuration ID) from the bucket
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AmazonS3.png
+  humanURL: https://aws.amazon.com/s3/
+  baseURL: https:////
+  tags: Amazon Web Services, Storage, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/aws-s3/analyticsampidanalyticsconfigurationid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/aws-s3/analyticsampidanalyticsconfigurationid-delete-openapi.md
 - name: No Title - DELETE Bucket analyticsnttconfiguration
   x-api-slug: analyticsampidanalyticsconfigurationid-delete
   description: This implementation of the DELETE operation deletes an analytics configuration(identified

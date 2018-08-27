@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgr
 x-kinRank: "9"
 x-alexaRank: "10000"
 tags: Analytics
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/sendgrid/apis.md
 specificationVersion: "0.14"
 apis:
@@ -34,6 +34,26 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/sendgrid/tracking-settingsgoogle-analytics-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/sendgrid/tracking-settingsgoogle-analytics-get-openapi.md
+- name: SendGrid - Patch Tracking Settings Google Analytics
+  x-api-slug: tracking-settingsgoogle-analytics-patch
+  description: |-
+    **This endpoint allows you to update your current setting for Google Analytics.**
+
+    For more information about using Google Analytics, please refer to [Google???s URL Builder](https://support.google.com/analytics/answer/1033867?hl=en) and their article on ["Best Practices for Campaign Building"](https://support.google.com/analytics/answer/1037445).
+
+    We default the settings to Google???s recommendations. For more information, see [Google Analytics Demystified](https://sendgrid.com/docs/Classroom/Track/Collecting_Data/google_analytics_demystified_ga_statistics_vs_sg_statistics.html).
+
+    You can track a variety of the actions your recipients may take when interacting with your emails including opening your emails, clicking on links in your emails, and subscribing to (or unsubscribing from) your emails.
+
+    For more information about tracking, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Settings/tracking.html).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analytics/master/_listings/sendgrid/tracking-settingsgoogle-analytics-patch-openapi.md
 x-common:
 - type: x--net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
